@@ -1,0 +1,33 @@
+{
+  "name": "figma-plugin-template",
+  "version": "1.0.0",
+  "description": "A template for creating Figma plugins using @create-figma-plugin/ui",
+  "author": "Kevin Muldoon",
+  "license": "ISC",
+  "figma-plugin": {
+    "editorType": ["figma"],
+    "id": "16c3c5af-c72b-47a3-9711-8f5508de2d96",
+    "name": "Figma Plugin Template",
+    "main": "src/controllers/figma.ts",
+    "ui": "src/views/App.tsx"
+  },
+  "dependencies": {
+    "@create-figma-plugin/ui": "^2.5.0",
+    "@create-figma-plugin/utilities": "^2.5.0",
+    "chroma-js": "^2.4.2",
+    "lodash": "^4.17.21",
+    "preact": ">=10"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "^2.5.0",
+    "@create-figma-plugin/tsconfig": "^2.5.1",
+    "@figma/plugin-typings": "1.68.0",
+    "@types/chroma-js": "^2.4.0",
+    "@types/prismjs": "^1.26.0",
+    "typescript": ">=4"
+  },
+  "scripts": {
+    "build": "build-figma-plugin --typecheck --minify",
+    "watch": "build-figma-plugin --typecheck --watch"
+  }
+}
