@@ -8,7 +8,7 @@
     "editorType": ["figma"],
     "id": "16c3c5af-c72b-47a3-9711-8f5508de2d96",
     "name": "Figma Plugin Template",
-    "main": "src/controllers/controller.ts",
+    "main": "src/plugin/controller.ts",
     "ui": "src/App.tsx"
   },
   "dependencies": {
