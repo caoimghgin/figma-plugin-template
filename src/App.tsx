@@ -3,8 +3,8 @@ import { h, JSX } from 'preact'
 import { useEffect, useState } from 'preact/hooks'
 import { Button, Container, Inline, Stack, Text, Textbox, VerticalSpace, render } from '@create-figma-plugin/ui'
 import { emit, on } from '@create-figma-plugin/utilities'
-import { CreateRectanglesEvent, RectanglesCreatedEvent, ClosePluginEvent } from '../events/handlers'
-import { SuccessModal } from './components/SuccessModal'
+import { CreateRectanglesEvent, RectanglesCreatedEvent, ClosePluginEvent } from './events/handlers'
+import { SuccessModal } from './views/SuccessModal'
 
 function App() {
 

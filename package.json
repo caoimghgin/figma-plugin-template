@@ -8,8 +8,8 @@
     "editorType": ["figma"],
     "id": "16c3c5af-c72b-47a3-9711-8f5508de2d96",
     "name": "Figma Plugin Template",
-    "main": "src/controllers/figma.ts",
-    "ui": "src/views/App.tsx"
+    "main": "src/controllers/controller.ts",
+    "ui": "src/App.tsx"
   },
   "dependencies": {
     "@create-figma-plugin/ui": "^2.5.0",
